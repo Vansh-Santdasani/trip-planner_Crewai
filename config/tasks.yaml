@@ -1,0 +1,11 @@
+research_destinations:
+  description: Research and suggest travel destinations based on the user's preference for {preference}.
+  expected_output: A list of destinations with brief descriptions.
+
+analyze_budget:
+  description: Analyze the user's budget of {budget} for a {duration}-day trip and suggest daily spending limits for travel, accommodation, and activities in rupees(INR) currency .
+  expected_output: A breakdown of suggested daily spending for each category.
+
+create_itinerary:
+  description: Create a {duration}-day travel itinerary for the chosen destination, incorporating the budget constraints and user preferences.
+  expected_output: A day-by-day itinerary with activities, accommodation suggestions, and estimated costs in INR( make sure propery currency is used.).
