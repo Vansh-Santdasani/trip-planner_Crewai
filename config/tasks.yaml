@@ -3,8 +3,10 @@ research_destinations:
   expected_output: A list of destinations with brief descriptions.
 
 analyze_budget:
-  description: Analyze the user's budget of {budget} for a {duration}-day trip and suggest daily spending limits for travel, accommodation, and activities in rupees(INR) currency .
-  expected_output: A breakdown of suggested daily spending for each category.
+  description: >
+    Analyze the user's budget of {budget} for a {duration}-day trip. Ensure the budget is realistic based on location and number of travelers. If the budget is too low, suggest alternative cheaper destinations.
+  expected_output: >
+    A detailed budget breakdown, including spending limits for travel, accommodation, and activities. Additionally, provide budget-friendly destination recommendations if needed.
 
 create_itinerary:
   description: Create a {duration}-day travel itinerary for the chosen destination, incorporating the budget constraints and user preferences.
